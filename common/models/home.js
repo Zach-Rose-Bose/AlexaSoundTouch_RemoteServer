@@ -28,7 +28,7 @@ module.exports = function(Home) {
         'shiftStack',
         {
             http: {path: '/shiftStack', verb: 'get'},
-            accepts: {arg: 'bridgeID', type: 'number', http: { source: 'query' } },
+            accepts: {arg: 'bridgeID', type: 'string', http: { source: 'query' } },
             returns: {arg: 'name', type: 'string'}
         }
     );
@@ -58,7 +58,7 @@ module.exports = function(Home) {
         'pushKey',
         {
             http: {path: '/pushKey', verb: 'get'},
-            accepts: [{arg: 'bridgeID', type: 'number', http: { source: 'query' } },
+            accepts: [{arg: 'bridgeID', type: 'string', http: { source: 'query' } },
                       {arg: 'url', type: 'string', http: { source: 'query' } }],
             returns: {arg: 'name', type: 'string'}
         }
