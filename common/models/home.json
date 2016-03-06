@@ -1,0 +1,25 @@
+{
+  "name": "home",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "alexaID": {
+      "type": "string"
+    },
+    "keyStack": {
+      "type": [
+        "any"
+      ]
+    },
+    "currentState": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
