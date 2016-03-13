@@ -10,10 +10,10 @@ This Remote Server Component serves as a bridge between the AlexaSoundTouch\_Ale
 This should be the first of the three components that is set up. It is assumed that this component will be set up on an internet-accessible server instance.
 
 1. Run
-    git clone https://github.com/zwrose/AlexaSoundTouch\_RemoteServer.git
+    `git clone https://github.com/zwrose/AlexaSoundTouch\_RemoteServer.git`
 2. Enter the newly cloned directory and run
-    sudo npm install
+    `sudo npm install`
 3. Run
-    sudo node .
+    `sudo node .`
 
 Then proceed to [AlexaSoundTouch\_AlexaSkill](https://github.com/zwrose/AlexaSoundTouch_AlexaSkill) setup.
