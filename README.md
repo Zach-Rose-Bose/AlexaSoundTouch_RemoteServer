@@ -13,8 +13,8 @@ This should be the first of the three components that is set up. It is assumed t
     `git clone https://github.com/zwrose/AlexaSoundTouch_RemoteServer.git`
 2. Enter the newly cloned directory and run
     `sudo npm install`
-2b. Check to see if MongoDB is installed -- if not, you will need to [install it manually](https://docs.mongodb.com/manual/installation/).
-3. Run
+3. Check to see if MongoDB is installed -- if not, you will need to [install it manually](https://docs.mongodb.com/manual/installation/).
+4. Run
     `sudo node .`
 
 Once this is complete, proceed to [AlexaSoundTouch\_AlexaSkill](https://github.com/zwrose/AlexaSoundTouch_AlexaSkill) setup.
